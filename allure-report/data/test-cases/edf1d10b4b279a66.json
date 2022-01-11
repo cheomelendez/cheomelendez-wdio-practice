@@ -1,0 +1,60 @@
+{
+  "uid" : "edf1d10b4b279a66",
+  "name" : "Get list of recent posts, assert length of each item and count of rows",
+  "fullName" : "Exercise 2 - Blog.Get list of recent posts, assert length of each item and count of rows",
+  "historyId" : "98aeafbd5762e2191d99237fe14f2c32",
+  "time" : {
+    "start" : 1641314800742,
+    "stop" : 1641314807895,
+    "duration" : 7153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Exercise 2 - Blog"
+  }, {
+    "name" : "testClass",
+    "value" : "Exercise 2 - Blog"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get list of recent posts, assert length of each item and count of rows"
+  }, {
+    "name" : "package",
+    "value" : "Exercise 2 - Blog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edf1d10b4b279a66.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
