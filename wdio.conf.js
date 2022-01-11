@@ -141,8 +141,8 @@ exports.config = {
     //*******OLD SERVICES CONFIG
     //services: ['chromedriver'],
 
-    //services: ['selenium-standalone'],
-
+    services: ['selenium-standalone'],
+    //test
     // services: [
     //     ['selenium-standalone', {
     //         logPath: 'logs',
@@ -151,7 +151,7 @@ exports.config = {
     //     }]
     // ],
 
-    services: ['browserstack'],
+    // services: ['browserstack'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

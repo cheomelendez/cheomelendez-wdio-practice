@@ -1,0 +1,169 @@
+{
+  "uid" : "9cef92aca484dd0a",
+  "name" : "Open URL & assert title",
+  "fullName" : "Home.Open URL & assert title",
+  "historyId" : "14c934dab086fbe8b41376871e061cc4",
+  "time" : {
+    "start" : 1641337971466,
+    "stop" : 1641337979382,
+    "duration" : 7916
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641337971473,
+        "stop" : 1641337979190,
+        "duration" : 7717
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9bf22c2386422e1c",
+        "name" : "Request",
+        "source" : "9bf22c2386422e1c.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1641337979191,
+        "stop" : 1641337979348,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d1f64d9f7f8e2e9",
+        "name" : "Request",
+        "source" : "2d1f64d9f7f8e2e9.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "d94229098cf430cf",
+        "name" : "Response",
+        "source" : "d94229098cf430cf.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641337979353,
+        "stop" : 1641337979376,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b998d50faed3fd9f",
+        "name" : "Response",
+        "source" : "b998d50faed3fd9f.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open URL & assert title"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ {
+      "uid" : "fc1c95935e17891a",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Practice E-Commerce Site – Automation Bro\"\n                Received: \"504 Gateway Time-out\"",
+      "time" : {
+        "start" : 1641317622827,
+        "stop" : 1641317678742,
+        "duration" : 55915
+      }
+    }, {
+      "uid" : "abc0f1dfa5830557",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641315756218,
+        "stop" : 1641315762487,
+        "duration" : 6269
+      }
+    }, {
+      "uid" : "59e6eac016964f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641314301687,
+        "stop" : 1641314309700,
+        "duration" : 8013
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9cef92aca484dd0a.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

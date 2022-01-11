@@ -1,0 +1,60 @@
+{
+  "uid" : "bc8de22ff69209de",
+  "name" : "Click get started button & assert url contains get-started text",
+  "fullName" : "Home.Click get started button & assert url contains get-started text",
+  "historyId" : "f81b1f840f2a114249acc2791bdd0b5f",
+  "time" : {
+    "start" : 1641314317826,
+    "stop" : 1641314319159,
+    "duration" : 1333
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click get started button & assert url contains get-started text"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc8de22ff69209de.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
