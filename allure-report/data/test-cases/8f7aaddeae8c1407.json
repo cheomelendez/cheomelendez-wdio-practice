@@ -1,0 +1,187 @@
+{
+  "uid" : "8f7aaddeae8c1407",
+  "name" : "Open About Page & assert URL",
+  "fullName" : "Home.Open About Page & assert URL",
+  "historyId" : "827a69c89b827f92299ed6d786716a5e",
+  "time" : {
+    "start" : 1641337979383,
+    "stop" : 1641337986800,
+    "duration" : 7417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641337979384,
+        "stop" : 1641337982544,
+        "duration" : 3160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49c0de79ac9b91af",
+        "name" : "Request",
+        "source" : "49c0de79ac9b91af.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1641337982544,
+        "stop" : 1641337982691,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0e578cefdbe2cbc",
+        "name" : "Request",
+        "source" : "c0e578cefdbe2cbc.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "99706629baa7fcc1",
+        "name" : "Response",
+        "source" : "99706629baa7fcc1.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641337982691,
+        "stop" : 1641337986765,
+        "duration" : 4074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fafbb64a0563cef0",
+        "name" : "Request",
+        "source" : "fafbb64a0563cef0.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1641337986766,
+        "stop" : 1641337986799,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc69633c036c7513",
+        "name" : "Response",
+        "source" : "cc69633c036c7513.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open About Page & assert URL"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9fd443364e03f430",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://practice.automationbro.com/about/\"\n                Received: \"https://practice.automationbro.com/\"",
+      "time" : {
+        "start" : 1641317678743,
+        "stop" : 1641317761594,
+        "duration" : 82851
+      }
+    }, {
+      "uid" : "14be373627c70849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641315762487,
+        "stop" : 1641315770222,
+        "duration" : 7735
+      }
+    }, {
+      "uid" : "1ad632903124a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641314309701,
+        "stop" : 1641314317825,
+        "duration" : 8124
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f7aaddeae8c1407.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

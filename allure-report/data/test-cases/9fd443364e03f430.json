@@ -1,0 +1,180 @@
+{
+  "uid" : "9fd443364e03f430",
+  "name" : "Open About Page & assert URL",
+  "fullName" : "Home.Open About Page & assert URL",
+  "historyId" : "827a69c89b827f92299ed6d786716a5e",
+  "time" : {
+    "start" : 1641317678743,
+    "stop" : 1641317761594,
+    "duration" : 82851
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://practice.automationbro.com/about/\"\n                Received: \"https://practice.automationbro.com/\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://practice.automationbro.com/about/\"\n                Received: \"https://practice.automationbro.com/\"\n                    at Context.<anonymous> (C:\\Users\\Adriana\\Documents\\Projects\\wdio-course\\test\\specs\\/home.js:43:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://practice.automationbro.com/about/\"\n                Received: \"https://practice.automationbro.com/\"",
+    "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://practice.automationbro.com/about/\"\n                Received: \"https://practice.automationbro.com/\"\n                    at Context.<anonymous> (C:\\Users\\Adriana\\Documents\\Projects\\wdio-course\\test\\specs\\/home.js:43:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641317678744,
+        "stop" : 1641317741029,
+        "duration" : 62285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "60f1bfbc3ac16f1f",
+        "name" : "Request",
+        "source" : "60f1bfbc3ac16f1f.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1641317741029,
+        "stop" : 1641317741199,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65e454672065f0df",
+        "name" : "Request",
+        "source" : "65e454672065f0df.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "8aad2c894fbf0b4f",
+        "name" : "Response",
+        "source" : "8aad2c894fbf0b4f.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641317741201,
+        "stop" : 1641317751588,
+        "duration" : 10387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db1f2642b8b12d3e",
+        "name" : "Request",
+        "source" : "db1f2642b8b12d3e.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1641317751588,
+        "stop" : 1641317751601,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d32a924a1d4832fe",
+        "name" : "Response",
+        "source" : "d32a924a1d4832fe.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1641317752104,
+        "stop" : 1641317761594,
+        "duration" : 9490
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Expect window to have url\n                \n                Expected: \"https://practice.automationbro.com/about/\"\n                Received: \"https://practice.automationbro.com/\"\n                    at Context.<anonymous> (C:\\Users\\Adriana\\Documents\\Projects\\wdio-course\\test\\specs\\/home.js:43:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open About Page & assert URL"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fd443364e03f430.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

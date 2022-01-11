@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "read ECONNRESET",
+      "children" : [ {
+        "name" : "\"before each\" hook for Home",
+        "uid" : "a4751b1a0b0ef48e",
+        "parentUid" : "49b37d5f02a90a77309f1ec8ba0ccf99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641317761597,
+          "stop" : 1641317850521,
+          "duration" : 88924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      } ],
+      "uid" : "49b37d5f02a90a77309f1ec8ba0ccf99"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`[role='alert']`) to have text containing\n                \n                Expected: \"Weee will be in touch \"\n                Received: \"Thanks for contacting us! We will be in touch with you shortly\"",
+      "children" : [ {
+        "name" : "Fill out a contact form, click on submit, and assert a success message",
+        "uid" : "50214d6c0313c75a",
+        "parentUid" : "c6fd9d4cb454f684eca43abc376bda65",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641521823511,
+          "stop" : 1641521854071,
+          "duration" : 30560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      }, {
+        "name" : "Fill out a contact form, click on submit, and assert a success message",
+        "uid" : "cbf108078f4e6f8b",
+        "parentUid" : "c6fd9d4cb454f684eca43abc376bda65",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641854212417,
+          "stop" : 1641854236017,
+          "duration" : 23600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "firefox-95.0.2" ]
+      } ],
+      "uid" : "c6fd9d4cb454f684eca43abc376bda65"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

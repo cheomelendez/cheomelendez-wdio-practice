@@ -1,0 +1,16 @@
+{
+  "plugins": ["webdriverio/async"],
+  "extends": [
+      "plugin:wdio/recommended",
+      "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVErsion": "latest",
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "node": true
+  }
+}
